@@ -26,7 +26,8 @@ function successFunction(position) {
 }
 
 function errorFunction(){
-    alert("Geocoder failed");
+    alert("Geocoder failed!");
+    alert("Might be caused by getCurrentPosition() and watchPosition() no longer working on insecure origins for some browsers such as Chrome.");
 }
 
   function initialize() {
