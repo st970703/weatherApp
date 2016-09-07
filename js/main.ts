@@ -6,7 +6,7 @@ if ("geolocation" in navigator) {
         loadWeather(position.coords.latitude, position.coords.longitude);
     });
 } else{
-    loadWeather("Auckland","");
+    loadWeather("Auckland, NZ","");
 }
 
 $(document).ready(function(){
