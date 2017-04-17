@@ -2,5 +2,7 @@
 
 This is a personal portal on Microsoft Azure that displays personal information such as the weather forecast.
 
-To see the app in action, please go to:
+To see the app in action, please go to:\n
 https://mytestingprototypeapp.azurewebsites.net/
+
+Please always enable the location service.
